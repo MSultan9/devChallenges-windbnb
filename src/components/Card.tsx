@@ -14,8 +14,8 @@ type Props = {
 const Card = (props: Props) => {
     return (
         <div>
-            <img src={props.photo} className={`aspect-[395/269] w-full rounded-3xl mb-4 object-cover`} />
-            <div className="flex items-center justify-between text-sm mb-4">
+            <img src={props.photo} className={`aspect-[395/269] w-full rounded-3xl mb-3 lg:mb-4 object-cover`} />
+            <div className="flex items-center justify-between text-sm mb-3 lg:mb-4">
                 <div>
                     {props.superHost &&
                         <span className="text-xs border border-gray-600 text-gray-600 rounded-xl py-2 px-2.5 mr-2.5">SUPER HOST</span>
